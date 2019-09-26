@@ -11,9 +11,9 @@ import os
 
 #iamge paths
 #------------here need to be changed--------source image dir--------------------
-dir_paired_images="/Users/baidu/Desktop/trainingSet/pired-images/lambda_10_idt_0.5/tear/augmented-tear/"
-dir_train_A="/Users/baidu/Desktop/trainingSet/pix2pix-nor2cott/A/train/"
-dir_train_B="/Users/baidu/Desktop/trainingSet/pix2pix-nor2cott/B/train/"
+dir_paired_images="/Users/Desktop/trainingSet/pired-images/lambda_10_idt_0.5/tear/augmented-tear/"
+dir_train_A="/Users/Desktop/trainingSet/pix2pix-nor2cott/A/train/"
+dir_train_B="/Users/Desktop/trainingSet/pix2pix-nor2cott/B/train/"
 
 #for each image
 paired_imgs_list = os.listdir(dir_paired_images)
