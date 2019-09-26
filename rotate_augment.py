@@ -11,8 +11,8 @@ import os
 
 #image source directory
 #---------------------here need to be changed---------dir location---------
-source_dir="/Users/baidu/Desktop/trainingSet/pired-images/lambda_10_idt_0.5/tear/"
-target_dir="/Users/baidu/Desktop/trainingSet/pired-images/lambda_10_idt_0.5/tear/augmented-tear/"
+source_dir="/Users/Desktop/trainingSet/pired-images/lambda_10_idt_0.5/tear/"
+target_dir="/Users/Desktop/trainingSet/pired-images/lambda_10_idt_0.5/tear/augmented-tear/"
 if not os.path.isdir(target_dir):
     os.makedirs(target_dir)
 
