@@ -12,8 +12,8 @@ import os
 
 #image source directory
 #---------------------here need to be changed---------dir location---------
-source_dir="/Users/baidu/Desktop/苏州瑞图数据集/苏州瑞图数据集/images/单晶_暗域/"
-target_dir="/Users/baidu/Desktop/苏州瑞图数据集/运行结果/单2多-lam5idt0/暗域/test_latest/"
+source_dir="/Users/single/"
+target_dir="/Users/test_latest/"
 if not os.path.isdir(target_dir):
     os.makedirs(target_dir)
 
